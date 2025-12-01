@@ -26,7 +26,8 @@ public class MessageBroker {
             com.zeroc.Ice.ObjectAdapter adapter = communicator.createObjectAdapter("BrokerAdapter");
             adapter.add(new BrokerPrinterI(), Util.stringToIdentity("Printer"));
             adapter.activate();
-            
+
+
             System.out.println(" MessageBroker ready - balancing to PU1:10003 PU2:10004");
             communicator.waitForShutdown();
         } catch (Exception e) {
