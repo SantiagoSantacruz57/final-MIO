@@ -1,0 +1,4 @@
+BrokerAdapter.Endpoints=tcp -p 10002
+ProcessingUnit1.Proxy=ProcessingUnit1:Printer:tcp -h localhost -p 10003
+ProcessingUnit2.Proxy=ProcessingUnit2:Printer:tcp -h localhost -p 10004
+Ice.PrintAdapterReady=1

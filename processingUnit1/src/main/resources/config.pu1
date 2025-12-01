@@ -1,0 +1,4 @@
+PU1.Endpoints=tcp -p 10003
+Ice.PrintAdapterReady=1
+Printer.Endpoints=tcp -p 10003
+Ice.Default.Host=localhost

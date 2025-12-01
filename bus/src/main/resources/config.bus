@@ -1,0 +1,2 @@
+MessageBroker.Proxy=Printer:tcp -h localhost -p 10002
+Ice.MessageSizeMax=65536
