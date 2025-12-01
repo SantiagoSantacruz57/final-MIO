@@ -76,7 +76,9 @@ public class PrinterI implements Printer {
         int n = Integer.parseInt(command);
         StringBuilder sb = new StringBuilder();
         System.out.println(clientInfo + ": Request of fibonacci:" + n);
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
+
+        {
             sb.append(fibonacci(i)).append(" ");
         }
         List<Integer> primeFactors = getPrimeFactors(n);
